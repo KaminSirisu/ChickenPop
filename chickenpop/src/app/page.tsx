@@ -1,10 +1,12 @@
 import Image from "next/image";
-import Aboutus from "@/components/aboutus";
+import Banner from "@/components/Banner";
+
+
 
 export default function Home() {
   return (
-    <div>
-      <Aboutus></Aboutus>
-    </div>
+    <main className="">
+      <Banner></Banner>
+    </main>
   );
 }
