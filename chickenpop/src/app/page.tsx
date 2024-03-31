@@ -1,8 +1,10 @@
 import Image from "next/image";
-import NavBar from "@/components/NavBar";
+import Aboutus from "@/components/aboutus";
 
 export default function Home() {
   return (
-    <NavBar></NavBar>
+    <div>
+      <Aboutus></Aboutus>
+    </div>
   );
 }
