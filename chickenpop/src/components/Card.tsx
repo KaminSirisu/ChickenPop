@@ -4,11 +4,12 @@ import Image from "next/image";
 export default function Card() {
   return (
     <>
-      <section className="py-12">
-        <div className="container mx-auto px-4">
+      <hr></hr>
+      <section className="py-12 mb-12">
+        <div className="container mx-auto px-12">
           <div className="text-center mb-12">
-            <span className="text-xs text-orange-500">Menu</span>
-            <h2 className="text-3xl font-semibold mt-2">Chicken Pop Menu</h2>
+            {/* <span className="text-xs text-orange-500">Menu</span> */}
+            <h2 className="text-4xl font-semibold mt-2">Chicken Pop Menu</h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
@@ -104,7 +105,7 @@ export default function Card() {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mx-44">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mx-52">
             {/* Meal Cards */}
             <div className="bg-gray-100 shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition duration-300">
               <div className="overflow-hidden h-56">
@@ -113,7 +114,7 @@ export default function Card() {
                   alt="menu churros"
                   width={320}
                   height={300}
-                  className="h-full"
+                  className="w-full"
                 ></Image>
               </div>
               <div className="p-6">

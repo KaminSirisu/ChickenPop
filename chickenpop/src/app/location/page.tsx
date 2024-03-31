@@ -54,6 +54,15 @@ export default function page() {
               </td>
               <td className="p-3"> 065-120-9113</td>
             </tr>
+            <tr>
+              <td className="p-3">บอนชอน ทองหล่อ</td>
+              <td className="p-3">กรุงเทพมหานคร</td>
+              <td className="p-3">
+                ห้องเลขที่ JAV01LS202 เลขที่ 323 ชั้น 2 ซอยทองหล่อ 15
+                ถนนสุขุมวิท 55 แขวงคลองตันเหนือ เขตวัฒนา กรุงเทพมหานคร 10110
+              </td>
+              <td className="p-3">089-987-3320</td>
+            </tr>
           </table>
         </div>
       </section>
